@@ -1,0 +1,32 @@
+.first {
+    letter-spacing: 5px;
+    text-align: left;
+}
+.second {
+    line-height: 200%;
+    text-align: right;
+}
+.third {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    line-height: 300%;
+    color: #0f03b8;
+    text-shadow: 25px -21px 2px rgb(107, 179, 167);
+}
+
+div a:link {
+    color: red;
+}
+div a:hover {
+    color: green;
+    text-decoration: underline;
+}
+div a:visited {
+    color: black;
+}
+
+div a:active {
+    color: blue;
+}

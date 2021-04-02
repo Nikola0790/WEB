@@ -1,0 +1,39 @@
+.first {
+    color: darkturquoise;
+    background-color: saddlebrown;
+    opacity: 0.5;
+    font-size: 30px;
+    
+}
+.second {
+    color: rgba(0, 206 , 209, 0.5);
+    background-color: red;
+    font-size: 30px;
+}
+.third {
+    color: #00ced1;
+    background-color: green;
+    font-size: 30px;
+}
+
+.alice {
+    background-color: aliceblue;
+}
+.pink {
+    background-color: pink;
+}
+.col {
+    background-color: saddlebrown;
+}
+.nice {
+    background-color: skyblue;
+}
+.cool {
+    background-color: springgreen;
+}
+table {
+    border: 1px solid blue;
+}
+table tr th {
+    border: 1px solid blue;
+}

@@ -1,0 +1,42 @@
+* { font-size: 32px;
+    font-weight: normal;
+}
+.par1 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+}
+.par2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+}
+.par3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+.par1 q {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    quotes: "'" "'";
+}
+.par2 q {
+    font-family: Arial, Helvetica, sans-serif;
+    quotes: "'" "'";
+
+}
+.par3 q {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    quotes: """ """;
+}
+.par3 span {
+    font-weight: bolder;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Download font';
+    src: url(./fontDownload/NewTegomin-Regular.ttf);
+    @import url(); 
+}
+.par1 {
+    font-family: 'Download font';
+}
+h1 {
+    font-family: 'Kiwi Maru', serif
+}
