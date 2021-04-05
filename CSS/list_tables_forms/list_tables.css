@@ -1,0 +1,49 @@
+p {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+.unorderFirst {
+    list-style-type: circle;
+}
+.unorderSecond {
+    list-style-type: square;
+}
+.orderFirst {
+    list-style-type: upper-alpha;
+}
+.orderSecond {
+    list-style-type: upper-roman;
+}
+.listImage {
+    list-style-image: url(./toppng-com-star-png-free-downl.png);
+    width: 200px;
+}
+.listImageInside {
+    list-style-image: url(./toppng-com-star-png-free-downl.png);
+    width: 200px;
+    list-style-position: inside;
+}
+table {
+    margin: 0 auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+table img {
+    height: 100px;
+}
+td, th {
+    padding: 10px 10px;
+}
+tr:nth-child(odd) {
+    background-color: gray;
+}
+th {
+    background-color: red;
+    color: white;
+}
+tr:hover {
+    background-color: rgb(216, 216, 83);
+}
