@@ -1,0 +1,64 @@
+.div1 {
+    background-color: blue;
+    width: 200px;
+    height: 200px; 
+}
+.div2 {
+    background-color: black;
+    width: 200px;
+    height: 200px;  
+}
+.div3 {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+.div4 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: relative; 
+    
+}
+.div5 {
+    background-color: black;
+    width: 200px;
+    height: 200px;  
+    position: relative;
+    left: 120px;
+    bottom: 100px;
+}
+.div6 {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 250px;
+    bottom: 200px;
+}
+.div7 {
+    background-color: blue;
+    width: 200px;
+    height: 200px; 
+    position: absolute;
+    right: 15px;
+    z-index: 1;
+}
+.div8 {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 1370px;
+    right:90px;
+    z-index: 2;  
+}
+.div9 {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 1500px;
+    right: 150px;
+    z-index: 3;
+}

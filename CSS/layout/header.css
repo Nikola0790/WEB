@@ -1,0 +1,54 @@
+body {
+    background-color: lightgray;
+}
+.head {
+    margin: 10px 20px;
+    background-color: orange;
+    overflow: hidden;
+    
+}
+.head > a {
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px;
+    margin: 10px;
+    background-color: grey;
+    color:  white;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    border: none;
+    margin: 15px;
+    padding: 5px;
+    background-color: orange;
+}
+.dropcontent {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    z-index: 1;
+}
+.dropcontent a {
+    float: none;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropcontent {
+    display: block;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+.dropbtn:hover {
+ background-color: grey;
+}
+.dropcontent a {
+    padding: 10px;
+}
+.dropcontent a:hover {
+    background-color: grey;
+    color: black;
+}

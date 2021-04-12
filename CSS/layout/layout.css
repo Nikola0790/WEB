@@ -1,0 +1,33 @@
+body {
+    background-color: brown;
+    color: white;
+}
+p {
+    text-align: justify;
+    width: 90%;
+}
+.picture1 {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    margin-bottom: 50px;
+    height: 250px;
+}
+.picture2 {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+.picture3 {
+    position: absolute;
+    bottom: 60px;
+    left: 50px;
+}
+a {
+    position: fixed;
+    bottom: 10px;
+    right: 25px;
+    background-color: yellow;
+    color: blue;
+    font-size: 20px;    
+}
