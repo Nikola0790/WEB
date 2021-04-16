@@ -1,0 +1,18 @@
+* {
+    background-color: rgb(14, 75, 228);
+}
+.first img{
+    height: 200px;
+    float: right;  
+}
+.second img{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+}
+.third img{
+    height: 200px;
+    width: 200px;
+    float: left;
+}

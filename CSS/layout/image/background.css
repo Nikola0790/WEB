@@ -1,0 +1,13 @@
+body {
+    background-image: url(./fingers.png);
+    background-attachment: fixed;
+    color: red;
+}
+
+/*body {
+    background-image: url(./Dog.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+}*/
