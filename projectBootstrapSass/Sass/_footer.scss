@@ -1,0 +1,17 @@
+/* FOOTER */
+
+footer {
+    background-color: $headerAndFooterBackgroundColor;
+    color: $whiteColor;
+    text-align: center;
+    h2 {
+        font-family: 'Lato-Bold';
+    }
+    p {
+        font-family: 'Regular';
+        font-weight: bold;
+    }
+    .icon {
+        font-size: 35px;
+    }
+}

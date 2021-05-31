@@ -1,0 +1,21 @@
+/* Header */
+.header{
+    background-color: $headerAndFooterBackgroundColor;
+}
+
+.navigationBox {
+    .logo {
+        font-family: 'Regular';
+    }
+    button {
+        background-color: $greenish;
+        border: 0;
+    }
+    .linksBox {
+        justify-content: flex-end;
+
+        a {
+            font-family: 'Regular';
+        }
+    }
+}
