@@ -1,0 +1,11 @@
+.secList {
+    background-color: rgb(111, 24, 24);
+}
+.all {
+    background-color: rgb(25, 22, 192);
+}
+
+.third {
+    background-color: darkgreen;
+    text-transform: uppercase;
+}
