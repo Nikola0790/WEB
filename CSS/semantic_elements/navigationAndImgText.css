@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    width: 960px;
+    margin: 0 auto;
+}
+nav {
+    background-color: rgb(202, 54, 47);
+    width: 100%;
+    float: right;
+    margin-bottom: 2px;
+}
+nav li{
+    float: right;
+    margin: 10px 15px;
+    font-size: 20px;
+    list-style-type: none;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+.image img{
+    float: right;
+    width: 50%;
+    height: 510px;
+    margin-bottom: 10px;
+}
+.img_and_text {
+    float: left;
+    width: 70%;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.img_and_text img {
+    width: 300px;
+    height: 200px;
+}
+.img_and_text > img {
+    margin-right: 25px;
+}
+.img_and_text p {
+    display: inline-block;
+    width: 300px;
+    line-height: 25px;
+}
+.right_margin {
+    margin-right: 25px;
+}
+aside {
+    float: right;
+    width: 270px;
+    height: 220px;
+    background-color: rgb(248, 157, 19);
+    padding: 15px 20px;
+}
+aside li {
+    list-style-type: none;
+}
+aside a {
+    text-decoration: none;
+    color: black;
+    line-height: 25px;
+}
+.img_and_text_part_two {
+    margin-bottom: 20px;
+}
+.img_and_text_part_two img {
+    width: 300px;
+    height: 200px;
+}
+.img_and_text_part_two .space {
+    margin-right: 25px;
+}
+.img_and_text_part_two .text p {
+    width: 300px;
+    line-height: 25px;
+    display: inline-block;
+}
+footer {
+    background-color: rgb(64, 62, 89);
+    color: white;
+    padding: 15px 0 15px 280px;
+    width: 80%;
+    margin: 0 auto;
+}
