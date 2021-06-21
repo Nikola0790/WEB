@@ -28,4 +28,4 @@ function buildDropdown (arr, domNode) {
 
 var array = ['Home', 'About', 'Contact'];
 buildDropdown(array, 'div');
-buildDropdown (['Box_1', 'Box_2', 'Box_3'], 'div')
+buildDropdown (['Box_1', 'Box_2', 'Box_3'], 'div');

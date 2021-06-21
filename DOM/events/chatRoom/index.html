@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat room</title>
+    <style>
+        .submit {
+            background-color: rgb(162, 23, 23);
+            color: white;
+            border: none;
+            padding: 3px 30px;
+            cursor: pointer;
+        }
+        p {
+            background-color: rgb(217, 220, 220);
+            width: fit-content;
+        }
+    </style>
+</head>
+<body>
+    <div class="areaForText"></div>
+    <form action="#">
+        <input class="message" type="text">
+        <input onclick="message()" class="submit" type="submit" value="send">
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
