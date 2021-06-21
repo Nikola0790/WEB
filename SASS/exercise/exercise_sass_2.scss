@@ -1,0 +1,29 @@
+@import 'mixin';
+@import 'variabl';
+
+.para {
+    @include mixText();
+    font-size: $sizeLett;
+}
+.head {
+    color: $backColor;
+    font-size: $sizeLett;
+    @include boxMix();
+}
+
+.red {
+    @extend .head;
+    border: 2px solid red;
+}
+.blue {
+    @include borderColor (rgb(55, 19, 216));
+}
+.green {
+    @extend .para;
+    border: 2px solid rgb(10, 150, 50);
+    font-size: $sizeLett;
+}
+.wid {
+    width: 600px / 900px * 100%;
+    margin: 0 auto;
+}

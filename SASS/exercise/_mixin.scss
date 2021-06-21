@@ -1,0 +1,9 @@
+@mixin mixText() {
+    text-shadow: 2px 2px 2px #1a1615;
+}
+@mixin boxMix {
+    box-shadow: 42px 32px 15px 5px #e63737;
+}
+@mixin borderColor ($color) {
+    border: 2px solid $color;
+}

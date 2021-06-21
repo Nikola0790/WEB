@@ -1,0 +1,30 @@
+.para, .green {
+  text-shadow: 2px 2px 2px #1a1615;
+  font-size: 36px;
+}
+
+.head, .red {
+  color: green;
+  font-size: 36px;
+  -webkit-box-shadow: 42px 32px 15px 5px #e63737;
+          box-shadow: 42px 32px 15px 5px #e63737;
+}
+
+.red {
+  border: 2px solid red;
+}
+
+.blue {
+  border: 2px solid #3713d8;
+}
+
+.green {
+  border: 2px solid #0a9632;
+  font-size: 36px;
+}
+
+.wid {
+  width: 66.66667%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=exercise_sass_2.css.map */

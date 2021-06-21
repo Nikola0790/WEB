@@ -1,0 +1,24 @@
+$backCol: rgb(233, 25, 10);
+@import './info';
+@mixin flexDir ($flexD, $colT) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $flexD;
+    color: $colT;
+}
+header {
+    @include flexDir(row, rgb(101, 247, 101));
+    background-color: $backCol;
+    button {
+        color: rgb(245, 146, 156);
+        &:hover {
+            background-color: violet;
+        }
+    }
+    border: 3px solid green;
+    width: 500px / 1222px * 100%;
+}
+.info {
+    background: blue;
+}

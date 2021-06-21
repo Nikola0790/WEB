@@ -1,0 +1,26 @@
+$primary-color: red;
+$primary-width: 30%;
+$primary-background: rgb(141, 141, 238);
+$primary-fontSize: 35px;
+
+h2{
+    background: $primary-background;
+    width: $primary-width;
+}
+table {
+    color: $primary-color;
+    font-size: $primary-fontSize;
+    width: $primary-width;
+}
+h1 {
+    color: $primary-color;
+    background: $primary-background;
+    font-size: $primary-fontSize;
+}
+table {
+    td {
+        background-color: cadetblue;
+        color: chartreuse;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}

@@ -1,0 +1,23 @@
+h2 {
+  background: #8d8dee;
+  width: 30%;
+}
+
+table {
+  color: red;
+  font-size: 35px;
+  width: 30%;
+}
+
+h1 {
+  color: red;
+  background: #8d8dee;
+  font-size: 35px;
+}
+
+table td {
+  background-color: cadetblue;
+  color: chartreuse;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*# sourceMappingURL=id_card_style.css.map */
