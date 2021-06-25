@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Traverse (Redo Gallery)
+    Create a page with two “galleries”
+    Each gallery should contain 3 photos and it should be wrapped in a div
+    Width of the pictures should be 33%
+    One picture in the first gallery should have a red border around it
+    Red border should be a result of a class named “selected”
+    Create a function that selects the image with red borders and removes
+    them, then uses traversing technique to navigate to the second gallery and
+    applies the red borders to the middle picture -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <a class="image-popup-vertical-fit" href="http://farm9.staticflickr.com/8241/8589392310_7b6127e243_s.jpg">
+            <img src="http://farm9.staticflickr.com/8241/8589392310_7b6127e243_s.jpg" width="33%" height="">
+        </a>
+        <a class="image-popup-fit-width" href="http://farm9.staticflickr.com/8379/8588290361_ecf8c27021_s.jpg">
+            <img  src="http://farm9.staticflickr.com/8379/8588290361_ecf8c27021_s.jpg" width="33%" height="">
+        </a>
+        <a class="image-popup-no-margins" href="http://farm4.staticflickr.com/3721/9207329484_ba28755ec4_o.jpg">
+            <img src="http://farm4.staticflickr.com/3721/9207329484_ba28755ec4_o.jpg" width="33%" height="">
+        </a>
+    </div>
+    <div>
+        <a class="image-popup-vertical-fit" href="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_s.jpg">
+            <img  src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_s.jpg" width="33%" height="">
+        </a>
+        <a class="image-popup-fit-width" href="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_s.jpg">
+            <img src="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_s.jpg" width="33%" height="">
+        </a>
+        <a class="image-popup-no-margins" href="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_s.jpg">
+            <img src="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_s.jpg" width="33%" height="">
+        </a>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+</body>
+</html>
