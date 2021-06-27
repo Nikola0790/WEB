@@ -15,6 +15,7 @@ $(document).ready(function () {
 
 
     // plugin
+	
     $('.image-popup-vertical-fit').magnificPopup({
 		type: 'image',
 		closeOnContentClick: true,
