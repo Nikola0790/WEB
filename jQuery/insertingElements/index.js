@@ -12,7 +12,6 @@ arrImg.push(img_2);
 arrImg.push(img_3);
 arrImg.push(img_4);
 
-
 for (var i = 0; i < arrImg.length; i++) {
     var num = Math.floor(Math.random() * (i + 500));
 	console.log(num);
