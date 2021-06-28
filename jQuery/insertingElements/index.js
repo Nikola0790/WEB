@@ -1,4 +1,39 @@
-var arrImg = [];
+var arrImg = ['exam_bg.jpg', 'img_1.png', 'Nokia.jpg', 'http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg'];
+var body = $('body');
+var title = $('<h1>AMAZING GALLERY</h1>');
+
+for (var i = 0; i < arrImg.length; i++) {
+
+    var num = Math.floor(Math.random() * (i + 1000));
+    var aTag = $('<a>');
+	var img = $('<img>');
+
+    aTag.attr('href', arrImg[i]);
+    img.attr('src', arrImg[i]);
+    img.css({'width': num + 'px' });
+    aTag.append(img);
+    body.append(aTag);
+    if (img.width() >= 200) {
+		img.css({'border': 'none'});
+		var line = i;
+    }
+	if (line <= i) {
+		img.css({'border': 'none'});
+	} else {
+		img.css({'border': '5px solid green'});
+	}
+}
+
+$(document).ready(function () {
+	setTimeout(function (){
+        body.prepend(title);
+    }, 3000);
+})
+
+
+
+// with plugins ********************************
+/* var arrImg = [];
 var body = $('body');
 var title = $('<h1>AMAZING GALLERY</h1>')
 
@@ -84,4 +119,4 @@ $(document).ready(function() {
 			duration: 300 // don't foget to change the duration also in CSS
 		}
 	});
-});
+}); */
