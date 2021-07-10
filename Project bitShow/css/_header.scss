@@ -1,0 +1,21 @@
+header {
+    background-color: $backgroundColor;
+}
+nav {
+    margin: 0 auto;
+    color: $letterColor;
+}
+.navbar-brand {
+    color: $letterColor !important;
+}
+.drop-down-list, .drop-down-list-info {
+    position: absolute;
+    color: black;
+    background-color: white;
+    list-style: none;
+    padding: 0;  
+}
+.underLine {
+    border-bottom: 1px solid black;
+    margin: 15px;
+}
