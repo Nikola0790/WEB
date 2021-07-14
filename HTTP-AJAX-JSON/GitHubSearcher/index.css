@@ -1,0 +1,23 @@
+body {
+    width:  80%;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 30px;
+}
+.container {
+    margin: 50px auto 100px auto;
+}
+.cardHolder {
+    margin: 0 auto;
+}
+.card {
+    margin: 0 auto;
+}
+.alert {
+    display: none;
+}
+.btn {
+    margin-top: 10px;
+    cursor: pointer;
+}
